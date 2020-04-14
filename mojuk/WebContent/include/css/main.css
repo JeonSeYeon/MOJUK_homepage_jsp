@@ -1,0 +1,204 @@
+@CHARSET "UTF-8";
+
+body {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	font-family: '고딕', 'Gothic', sans-serif;
+	overflow-x:hidden;
+}
+
+#container {
+	position: relative;
+	left: 50%;
+	background-color: #fff;
+	width: 1800px;
+	margin-left: -900px;
+}
+
+#header {
+	background-color: #fff;
+	height: 40px;
+}
+
+#content {
+	background-color: #F5F5F5;
+	float: left;
+	width: 1550px;
+	height: 185px;
+	padding-top: 10px;
+}
+
+/* #footer {
+	background-color: #bdbdbd;
+	height: 100px;
+} */
+
+#go_page {
+	float: left;
+	/*background-color:#eefaff;*/
+	width: 500px;
+	height: 40px;
+	margin-left: 400px;
+	text-align: left;
+}
+
+#login_form {
+	float: left;
+	/*background-color:#afe0ca;*/
+	width: 500px;
+	height: 40px;
+	margin-right: 400px;
+	text-align: right;
+}
+
+.bar {
+	background: linear-gradient(-500deg, #0072a8, #00ce00) fixed;
+	max-width: 1520px;
+	height: 13px;
+}
+
+#menu {
+	align: "center";
+	float: left;
+	width: 100%;
+	height: 60px;
+}
+
+.logo {
+	float: left;
+	margin-left: 380px;
+	cursor: pointer;
+}
+
+.menu {
+	float: left;
+	width: 110px;
+	height: 60px;
+	line-height: 20px;
+	margin-left: 25px;
+	/*background-color:#fff;*/
+	cursor: pointer;
+}
+
+#main_img {
+	width: 100%;
+	height: 451px;
+}
+
+#main_ground {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+#main {
+	display: inline-block;
+	text-align: left;
+	width: 1000px;
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+.main_menu {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 16.66%;
+	height: 100%;
+	line-height: 10px;
+	background-color: #f4fbf5;
+	cursor: pointer;
+}
+
+.tab {
+	display: none;
+}
+
+#main_menu0 {
+	display: block;
+}
+
+#gallery {
+	display: inline-block;
+	text-align: left;
+	float: right;
+	background: linear-gradient(#fff, #f4fbf5);
+	width: 100%;
+	height: 95%;
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+.gallery_line {
+	display: inline-block;
+	width: 100%;
+	height: 180px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	/*background-color:#c0c0c0;*/
+}
+
+.photo {
+	float: left;
+	background-color: pink;
+	width: 200px;
+	height: 100%;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.pagination {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height: 30px;
+}
+
+.move {
+	display: inline-block;
+	/*margin-left:3px;
+	margin-right:3px;*/
+	width: 20px;
+	height: 100%;
+}
+
+#profile {
+	display: inline-block;
+	text-align: left;
+	float: right;
+	background: linear-gradient(#fff, #f4fbf5);
+	width: 100%;
+	height: 95%;
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+.member_line {
+	display: inline-block;
+	text-align: center;
+	/*background-color:#d9eeff;*/
+	width: 100%;
+	height: 200px;
+	margin-top: 1px;
+}
+
+.member {
+	display: inline-block;
+	text-align: center;
+	/*background-color:#f4fbf5;*/
+	width: 100px;
+	height: 180px;
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}

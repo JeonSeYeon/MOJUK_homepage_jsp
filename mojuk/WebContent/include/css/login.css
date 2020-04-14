@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+#sign_in {
+	width: 99%;
+	height: 28%;
+	margin: auto;
+	margin-bottom: 30px;
+	border: 1px solid #bcbcbc;
+}
+
+#table {
+	width: 90%;
+	height: 10%;
+	border: 1px solid #bcbcbc;
+}
